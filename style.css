@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.analog {
+    width: 250px;
+    height: 250px;
+    margin: 110px auto 25px;
+    border: 3px solid #000;
+    border-radius: 100%;
+    background: orange;
+}
+
+hr.sec {
+    height: 1px;
+    background: #000;
+    border: solid 1px;
+    width: 95px;
+    position: relative;
+    border-radius: 0px 1px 1px 0px;
+    top: 127px;
+    left: 127px;
+    transform-origin: left;
+    transform: rotate(270deg);
+}
+
+hr.min {
+    height: 3px;
+    background: #000;
+    border: solid 1px;
+    width: 87px;
+    position: relative;
+    border-radius: 0px 2px 2px 0px;
+    top: 123px;
+    left: 127px;
+    transform-origin: left;
+    transform: rotate(270deg);
+}
+
+hr.hr {
+    height: 5px;
+    background: #000;
+    border: solid 1px;
+    width: 76px;
+    position: relative;
+    border-radius: 0px 3px 3px 0px;
+    top: 117px;
+    left: 127px;
+    transform-origin: left;
+    transform: rotate(270deg);
+}
+
+h4.h12 {
+    position: absolute;
+    top: 165px;
+    left: 676px;
+    background: transparent;
+}
+
+h4.h6 {
+    position: absolute;
+    top: 389px;
+    left: 682px;
+}
+
+h4.h1 {
+    position: absolute;
+    top: 179px;
+    left: 737px;
+}
+
+h4.h2 {
+    position: absolute;
+    top: 219px;
+    left: 775px;
+}
+
+h4.h3 {
+    position: absolute;
+    top: 277px;
+    left: 790px;
+}
+
+h4.h4 {
+    position: absolute;
+    top: 331px;
+    left: 773px;
+}
+
+h4.h5 {
+    position: absolute;
+    top: 371px;
+    left: 736px;
+}
+
+h4.h7 {
+    position: absolute;
+    top: 374px;
+    left: 628px;
+}
+
+h4.h8 {
+    position: absolute;
+    top: 332px;
+    left: 585px;
+}
+
+h4.h9 {
+    position: absolute;
+    top: 280px;
+    left: 568px;
+}
+
+h4.h10 {
+    position: absolute;
+    top: 223px;
+    left: 577px;
+}
+
+h4.h11 {
+    position: absolute;
+    top: 178px;
+    left: 617px;
+}
+
+.head {
+    margin: 10px 0px;
+}
+
+h1.heading {
+    text-align: center;
+    background: orange;
+}
+
+img {
+    width: 100px;
+    position: relative;
+    left: 485px;
+    margin: 30px;
+}
+
+.digital {
+    display: flex;
+}
+
+p.para {
+    margin: 30px;
+    font-size: larger;
+    position: relative;
+    left: 500px;
+}
+
+.time {
+    background: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    h4.h12 {
+        position: absolute;
+        top: 165px;
+        left: 183px;
+    }
+
+    h4.h6 {
+        position: absolute;
+        top: 389px;
+        left: 189px;
+    }
+
+    h4.h1 {
+        position: absolute;
+        top: 179px;
+        left: 244px;
+    }
+
+    h4.h2 {
+        position: absolute;
+        top: 219px;
+        left: 282px;
+    }
+
+    h4.h3 {
+        position: absolute;
+        top: 277px;
+        left: 297px;
+    }
+
+    h4.h4 {
+        position: absolute;
+        top: 331px;
+        left: 280px;
+    }
+
+    h4.h5 {
+        position: absolute;
+        top: 371px;
+        left: 243px;
+    }
+
+    h4.h7 {
+        position: absolute;
+        top: 374px;
+        left: 135px;
+    }
+
+    h4.h8 {
+        position: absolute;
+        top: 332px;
+        left: 92px;
+    }
+
+    h4.h9 {
+        position: absolute;
+        top: 280px;
+        left: 75px;
+    }
+
+    h4.h10 {
+        position: absolute;
+        top: 223px;
+        left: 84px;
+    }
+
+    h4.h11 {
+        position: absolute;
+        top: 178px;
+        left: 124px;
+    }
+    img {
+        width: 28%;
+        height: 105px;
+        position: relative;
+        left: 60px;
+        margin: 30px 0px;
+    }
+    p.para {
+        margin: 37px;
+        font-size: smaller;
+        padding: 5px;
+        position: relative;
+        left: 50px;
+    }
+}
